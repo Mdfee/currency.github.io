@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(228,228,228);
+    font-family: monospace;
+}
+.topp{
+    background-image: url(back.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.toppa{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: teal;
+    background: pink;
+}
+.toppa h1{
+    font-size: 40px;
+}
+.toppa p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.inputcurrency {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#taka, #dollar, #euro, #pound, #rupee{
+    border: none;
+    margin: 0 auto;
+    padding: 15px 15px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 5px teal;
+}
+#taka{
+    background: #35d073;
+} 
+#dollar{
+    background: #f8b195;
+} 
+#euro{
+    background: #f67280;
+} 
+#pound{
+    background: #c06c84;
+} 
+#rupee{
+    background: #e57f98;
+}
+
+
